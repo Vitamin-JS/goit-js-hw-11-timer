@@ -1,0 +1,41 @@
+.body {
+  max-width: 1200px;
+}
+
+.timer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 500px;
+  color: rgb(10, 36, 61);
+  font-family: sans-serif;
+  font-size: 80px;
+  font-weight: 700;
+}
+
+.field {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  background: #1f9fa8d6;
+  width: 250px;
+  margin: 3px;
+}
+
+.label {
+  font-style: italic;
+  font-size: 56px;
+  font-weight: 500;
+}
+
+.title {
+  margin-top: 100px;
+  display: flex;
+  justify-content: center;
+  color: rgb(10, 36, 61);
+  font-family: Verdana, 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande',
+    'Lucida Sans Unicode', Geneva, sans-serif;
+  font-size: 50px;
+}
